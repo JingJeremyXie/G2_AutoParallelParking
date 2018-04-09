@@ -1,0 +1,214 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Feb 21 14:00:30 2018
+# Process ID: 4744
+# Current directory: C:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.runs/design_1_axi_smc_2_synth_1
+# Command line: vivado.exe -log design_1_axi_smc_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_smc_2.tcl
+# Log file: C:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.runs/design_1_axi_smc_2_synth_1/design_1_axi_smc_2.vds
+# Journal file: C:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.runs/design_1_axi_smc_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_smc_2.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 422.250 ; gain = 87.047
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_smc_2' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/synth/design_1_axi_smc_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:13]
+INFO: [Synth 8-638] synthesizing module 'clk_map_imp_1I4I8XN' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1138]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_one_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_0/synth/bd_6e42_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (1#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_one_0' (2#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_0/synth/bd_6e42_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_psr0_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_1/synth/bd_6e42_psr0_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_psr0_0' (9#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_1/synth/bd_6e42_psr0_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_psr_aclk_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_2/synth/bd_6e42_psr_aclk_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_psr_aclk_0' (10#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_2/synth/bd_6e42_psr_aclk_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_psr_aclk1_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_3/synth/bd_6e42_psr_aclk1_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_psr_aclk1_0' (11#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_3/synth/bd_6e42_psr_aclk1_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'clk_map_imp_1I4I8XN' (12#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1138]
+INFO: [Synth 8-638] synthesizing module 'm00_exit_pipeline_imp_GKPSV4' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1208]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00e_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_30/synth/bd_6e42_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00e_0' (22#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_30/synth/bd_6e42_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_exit_pipeline_imp_GKPSV4' (23#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1208]
+INFO: [Synth 8-638] synthesizing module 'm00_nodes_imp_TU42FG' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1579]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00arn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_25/synth/bd_6e42_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base' (31#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_gray' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:204]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_gray' (32#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:204]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00arn_0' (40#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_25/synth/bd_6e42_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00awn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_27/synth/bd_6e42_m00awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00awn_0' (41#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_27/synth/bd_6e42_m00awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00bn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_29/synth/bd_6e42_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized0' (41#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized1' (41#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00bn_0' (42#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_29/synth/bd_6e42_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00rn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_26/synth/bd_6e42_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized2' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized2' (42#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00rn_0' (43#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_26/synth/bd_6e42_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00wn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_28/synth/bd_6e42_m00wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized3' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized3' (43#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized4' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized4' (43#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00wn_0' (44#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_28/synth/bd_6e42_m00wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_nodes_imp_TU42FG' (45#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1579]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_m00s2a_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_24/synth/bd_6e42_m00s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_m00s2a_0' (47#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_24/synth/bd_6e42_m00s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s00a2s_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_12/synth/bd_6e42_s00a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s00a2s_0' (49#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_12/synth/bd_6e42_s00a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's00_entry_pipeline_imp_1F7QC0Z' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1884]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s00mmu_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_9/synth/bd_6e42_s00mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s00mmu_0' (53#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_9/synth/bd_6e42_s00mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s00sic_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_11/synth/bd_6e42_s00sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s00sic_0' (58#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_11/synth/bd_6e42_s00sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s00tr_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_10/synth/bd_6e42_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s00tr_0' (61#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_10/synth/bd_6e42_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_entry_pipeline_imp_1F7QC0Z' (62#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:1884]
+INFO: [Synth 8-638] synthesizing module 's00_nodes_imp_1C1TU9L' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:2171]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_sarn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_13/synth/bd_6e42_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized5' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized5' (62#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized6' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized6' (62#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_sarn_0' (63#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_13/synth/bd_6e42_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_srn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_14/synth/bd_6e42_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized7' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized7' (63#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized8' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized8' (64#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_srn_0' (65#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_14/synth/bd_6e42_srn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_nodes_imp_1C1TU9L' (66#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:2171]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s01a2s_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_18/synth/bd_6e42_s01a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s01a2s_0' (67#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_18/synth/bd_6e42_s01a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's01_entry_pipeline_imp_9YMKS7' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:2302]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s01mmu_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_15/synth/bd_6e42_s01mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s01mmu_0' (68#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_15/synth/bd_6e42_s01mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s01sic_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_17/synth/bd_6e42_s01sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s01sic_0' (69#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_17/synth/bd_6e42_s01sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_s01tr_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_16/synth/bd_6e42_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_s01tr_0' (70#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_16/synth/bd_6e42_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_entry_pipeline_imp_9YMKS7' (71#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:2302]
+INFO: [Synth 8-638] synthesizing module 's01_nodes_imp_DCSYKV' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:2913]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_sarn_1' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_19/synth/bd_6e42_sarn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_sarn_1' (72#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_19/synth/bd_6e42_sarn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_sawn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_21/synth/bd_6e42_sawn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_sawn_0' (73#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_21/synth/bd_6e42_sawn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_sbn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_23/synth/bd_6e42_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized9' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized9' (73#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_sbn_0' (74#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_23/synth/bd_6e42_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_srn_1' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_20/synth/bd_6e42_srn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_srn_1' (75#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_20/synth/bd_6e42_srn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_swn_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_22/synth/bd_6e42_swn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized10' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized10' (76#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_swn_0' (77#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_22/synth/bd_6e42_swn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_nodes_imp_DCSYKV' (78#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:2913]
+INFO: [Synth 8-638] synthesizing module 'switchboards_imp_1J69X7X' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:3209]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_arsw_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_4/synth/bd_6e42_arsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_arsw_0' (81#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_4/synth/bd_6e42_arsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_awsw_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_6/synth/bd_6e42_awsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_awsw_0' (82#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_6/synth/bd_6e42_awsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_bsw_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_8/synth/bd_6e42_bsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_bsw_0' (83#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_8/synth/bd_6e42_bsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_rsw_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_5/synth/bd_6e42_rsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_rsw_0' (84#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_5/synth/bd_6e42_rsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_6e42_wsw_0' [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_7/synth/bd_6e42_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42_wsw_0' (85#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_7/synth/bd_6e42_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'switchboards_imp_1J69X7X' (86#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:3209]
+INFO: [Synth 8-256] done synthesizing module 'bd_6e42' (87#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/hdl/bd_6e42.v:13]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_smc_2' (88#1) [c:/ece532/nexys3_ise_gpio_uart/auto_parking/auto_parking.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_2/synth/design_1_axi_smc_2.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 580.559 ; gain = 245.355
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 580.559 ; gain = 245.355
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.694 . Memory (MB): peak = 1353.004 ; gain = 4.129
+Finished Constraint Validation : Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:00:58 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:32 ; elapsed = 00:01:35 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                        | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/i_0/\m00_nodes/m00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 158             | RAM32M x 27    | 
+|inst/i_0/\m00_nodes/m00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 158             | RAM32M x 27    | 
+|inst/i_0/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_0/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 7               | RAM32M x 2     | 
+|inst/i_0/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_0/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 85              | RAM32M x 15    | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 106             | RAM32M x 18    | 
+|inst/i_0/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_0/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 103             | RAM32M x 18    | 
+|inst/i_0/\s01_nodes/s01_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s01_nodes/s01_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_0/\s01_nodes/s01_aw_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s01_nodes/s01_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_0/\s01_nodes/s01_b_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\s01_nodes/s01_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 25              | RAM32M x 5     | 
+|inst/i_0/\s01_nodes/s01_r_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\s01_nodes/s01_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 103             | RAM32M x 18    | 
+|inst/i_0/\s01_nodes/s01_w_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s01_nodes/s01_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 88              | RAM32M x 15    | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:41 ; elapsed = 00:01:44 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Timing Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Technology Mapping : Time (s): cpu = 00:01:49 ; elapsed = 00:01:52 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished IO Insertion : Time (s): cpu = 00:01:50 ; elapsed = 00:01:53 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:50 ; elapsed = 00:01:53 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:51 ; elapsed = 00:01:54 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:51 ; elapsed = 00:01:54 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:51 ; elapsed = 00:01:55 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:51 ; elapsed = 00:01:55 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |     6|
+|2     |LUT1     |   175|
+|3     |LUT2     |   503|
+|4     |LUT3     |   478|
+|5     |LUT4     |  1211|
+|6     |LUT5     |   506|
+|7     |LUT6     |  1003|
+|8     |MUXF7    |     2|
+|9     |RAM16X1D |     2|
+|10    |RAM32M   |   237|
+|11    |RAM32X1D |     3|
+|12    |SRL16    |     3|
+|13    |SRLC32E  |   215|
+|14    |FDR      |    20|
+|15    |FDRE     |  4406|
+|16    |FDSE     |   185|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:51 ; elapsed = 00:01:55 . Memory (MB): peak = 1353.004 ; gain = 1017.801
+synth_design: Time (s): cpu = 00:01:58 ; elapsed = 00:02:02 . Memory (MB): peak = 1353.004 ; gain = 1024.563

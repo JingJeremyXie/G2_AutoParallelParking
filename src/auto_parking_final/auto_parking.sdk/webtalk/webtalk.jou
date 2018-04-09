@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# 
+# Start of session at: Sun Apr  8 23:19:01 2018
+# Process ID: 11888
+# Current directory: D:/Work/UofT/ECE532/auto_parking_final/auto_parking.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/Work/UofT/ECE532/auto_parking_final/auto_parking.sdk/webtalk/webtalk.log
+# Journal file: D:/Work/UofT/ECE532/auto_parking_final/auto_parking.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,47 @@
+23:11:37 **** Auto Build of configuration Debug for project drive_capture ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../drive_capture_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+In file included from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/fpga/System.h:64,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/System.h:54,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/deIP.h:59,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/DEIPcK.h:64,
+                 from ../../drive_capture_bsp/microblaze_0/include/PmodWIFI.h:2,
+                 from ../src/main.cc:52:
+d:\work\uoft\ece532\auto_parking_final\auto_parking.sdk\drive_capture_bsp\microblaze_0\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/System.h:54,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/utility/deIP.h:59,
+                 from ../../drive_capture_bsp/microblaze_0/include/DEIPcK/DEIPcK.h:64,
+                 from ../../drive_capture_bsp/microblaze_0/include/PmodWIFI.h:2,
+                 from ../src/main.cc:52:
+../../drive_capture_bsp/microblaze_0/include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+../src/main.cc: In function 'void DemoRun()':
+../src/main.cc:365:12: warning: variable 'distance' set but not used [-Wunused-but-set-variable]
+        int distance;
+            ^~~~~~~~
+../src/main.cc:375:18: warning: variable 'distance' set but not used [-Wunused-but-set-variable]
+              int distance = sonar();
+                  ^~~~~~~~
+'Finished building: ../src/main.cc'
+' '
+'Building target: drive_capture.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../drive_capture_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "drive_capture.elf"  ./src/MotorFeedback.o ./src/PWM.o ./src/PmodDHB1.o ./src/PmodMAXSONAR.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: drive_capture.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size drive_capture.elf  |tee "drive_capture.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 341772	   1872	  20364	 364008	  58de8	drive_capture.elf
+'Finished building: drive_capture.elf.size'
+' '
+
+23:11:39 Build Finished (took 2s.77ms)
+

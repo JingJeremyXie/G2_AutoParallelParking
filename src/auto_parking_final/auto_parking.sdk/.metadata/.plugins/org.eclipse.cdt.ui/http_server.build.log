@@ -1,0 +1,72 @@
+14:25:21 **** Auto Build of configuration Debug for project http_server ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../http_server_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+In file included from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/System.h:64,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/System.h:54,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/deIP.h:59,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/DEIPcK.h:64,
+                 from ../../http_server_bsp/microblaze_0/include/PmodWIFI.h:2,
+                 from ../src/main.cc:1:
+../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/System.h:54,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/deIP.h:59,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/DEIPcK.h:64,
+                 from ../../http_server_bsp/microblaze_0/include/PmodWIFI.h:2,
+                 from ../src/main.cc:1:
+../../http_server_bsp/microblaze_0/include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+'Finished building: ../src/main.cc'
+' '
+'Building file: ../src/deWebIOServer/HTMLGetPins.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/deWebIOServer/HTMLGetPins.o" -I../../http_server_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/deWebIOServer/HTMLGetPins.d" -MT"src/deWebIOServer/HTMLGetPins.o" -o "src/deWebIOServer/HTMLGetPins.o" "../src/deWebIOServer/HTMLGetPins.cpp"
+In file included from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/System.h:64,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/System.h:54,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/deIP.h:59,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/DEIPcK.h:64,
+                 from ../src/deWebIOServer/../HTTPServer.h:56,
+                 from ../src/deWebIOServer/HTMLGetPins.cpp:47:
+../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../src/deWebIOServer/../HTTPServer.h:54:0,
+                 from ../src/deWebIOServer/HTMLGetPins.cpp:47:
+../../http_server_bsp/microblaze_0/include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+'Finished building: ../src/deWebIOServer/HTMLGetPins.cpp'
+' '
+'Building file: ../src/deWebIOServer/deWebIOServerSrc.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/deWebIOServer/deWebIOServerSrc.o" -I../../http_server_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/deWebIOServer/deWebIOServerSrc.d" -MT"src/deWebIOServer/deWebIOServerSrc.o" -o "src/deWebIOServer/deWebIOServerSrc.o" "../src/deWebIOServer/deWebIOServerSrc.cpp"
+In file included from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/System.h:64,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/System.h:54,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/utility/deIP.h:59,
+                 from ../../http_server_bsp/microblaze_0/include/DEIPcK/DEIPcK.h:64,
+                 from ../src/deWebIOServer/../HTTPServer.h:56,
+                 from ../src/deWebIOServer/deWebIOServerSrc.cpp:49:
+../../http_server_bsp/microblaze_0/include/DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../src/deWebIOServer/../HTTPServer.h:54:0,
+                 from ../src/deWebIOServer/deWebIOServerSrc.cpp:49:
+../../http_server_bsp/microblaze_0/include/xil_io.h:99:0: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+../src/deWebIOServer/deWebIOServerSrc.cpp: In function 'int main()':
+../src/deWebIOServer/deWebIOServerSrc.cpp:109:10: error: 'XPAR_AXI_GPIO_0_BASEADDR' was not declared in this scope
+  addPINs(XPAR_AXI_GPIO_0_BASEADDR, 4, 0);
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/deWebIOServer/deWebIOServerSrc.o] Error 1
+
+14:25:22 Build Finished (took 1s.2ms)
+

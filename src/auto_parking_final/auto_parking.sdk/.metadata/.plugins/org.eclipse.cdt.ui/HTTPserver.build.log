@@ -1,0 +1,21 @@
+14:46:51 **** Build of configuration Debug for project HTTPserver ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../HTTPserver_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: HTTPserver.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HTTPserver_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "HTTPserver.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: HTTPserver.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size HTTPserver.elf  |tee "HTTPserver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2392	    308	   3108	   5808	   16b0	HTTPserver.elf
+'Finished building: HTTPserver.elf.size'
+' '
+
+14:46:52 Build Finished (took 1s.202ms)
+
