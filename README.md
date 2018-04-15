@@ -67,3 +67,10 @@ To compile the project, one must open the Vivado project file “src/auto_parkin
     ECE532_final_report.pdf
     ECE532_presentation.pptx
 ```
+
+## Authors
+Jing Xie
+
+Cheng Lin He
+
+Qiu Yuan Chen
